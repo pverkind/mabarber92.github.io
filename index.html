@@ -2,63 +2,65 @@
 layout: splash
 header:
   overlay_image: /images/covers/kitab3a.jpg
+title: ""
 
 feature_row:
   - image_path: /images/kitab/photo05.jpg
       
     
-    url: "#test-link"
+    url: "/meet-the-team/our-team"
     btn_label: "Meet the team"
-    btn_class: "btn--primary"
-  - image_path: /images/kitab/textalignment.png
-    
-      
-    
-    url: "#test-link"
-    btn_label: "Explore our data"
     btn_class: "btn--primary"
   - image_path: /images/kitab/mesa.jpg
     
+      
     
-    url: "#test-link"
+    url: "/data"
+    btn_label: "Explore our data"
+    btn_class: "btn--primary"
+  - image_path: /images/kitab/textalignment.png 
+    
+    
+    url: "/docs/faqs"
     btn_label: "FAQs"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /images/covers/search_app.png
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "Search the OpenITI corpus"
+    excerpt: 'Click the button to start searching our corpus and downloading texts'
+    url: "https://kitab-corpus-metadata.azurewebsites.net/arabic-kitab-version.html"
+    btn_label: "Search for books"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /images/covers/Zenodo.png
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "Our latest release"
+    excerpt: "OpenITI had its latest corpus release on 5th February 2021. Follow the link to download (please don't forget to cite!)"
+    url: "https://zenodo.org/record/4513723#.YFmyuK-eRPY"
+    btn_label: "Download the Corpus"
     btn_class: "btn--primary"
+
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: 
+    alt: ""
+    title: ""
+    excerpt: ""
+    url: ""
+
+
 ---
 
-{% include feature_row %}
 
 
 
- {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
+
+ {{ site.data.ui-text[site.locale].recent_posts | default: "Recent posts from the team" }}
  {% if paginator %} {% assign posts = paginator.posts %} {% else %} {% assign posts = site.posts %} {% endif %} {% assign entries_layout = page.entries_layout | default: 'list' %}
  {% for post in posts %} {% include archive-single.html type=entries_layout %} {% endfor %}
  {% include paginator.html %}
 
 
 
- {% include feature_row id="feature_row2" type="left" %}
+ {% include feature_row id="feature_row2" type="right" %}
  {% include feature_row id="feature_row3" type="left" %}

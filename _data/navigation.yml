@@ -1,12 +1,63 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Meet the team"
+    url: /meet-the-team/
+  - title: "Our Corpus"
+    url: /corpus/
+  - title: "Our Data"
+    url: /data/
+  - title: "Our Methods"
+    url: /methods/
+  - title: "Documentation"
+    url: /docs/access
+
+
+team:
+  - title: Meet the team
+    children:
+      - title: "About the project"
+        url: /meet-the-team/
+      - title: "Our team"
+        url: /meet-the-team/our-team
+      - title: "Our collaborators"
+        url: /meet-the-team/our-collaborators
+      - title: "Get involved"
+        url: /meet-the-team/get-involved
+
+corpus:
+  - title: Our Corpus
+    children:
+      - title: "About the Corpus"
+        url: /corpus/
+      - title: "What is mARkdown?"
+        url: /corpus/markdown
+      - title: "Suggest additions to the Corpus"
+        url: /corpus/add-to-corpus
+
+methods:
+  - title: Our Methods
+    children:
+      - title: "Introduction to our methods"
+        url: /methods/
+      - title: "About text reuse"
+        url: /methods/passim
+      - title: "Citation detection"
+        url: /methods/citation
+      - title: "Machine-learning approaches"
+        url: /methods/machine-learning
+
+docs:
+  - title: Documentation
+    children:
+      - title: "Accessing and downloading the corpus and its organisation"
+        url: /docs/access
+      - title: "mARkdown"
+        url: /docs/markdown
+      - title: "Using our applications"
+        url: /docs/apps
+      - title: "Applying digital methods to the corpus"
+        url: /docs/methods
+      - title: "Flagging issues with the corpus, apps or data"
+        url: /docs/issues-flagging
+      - title: "Frequently Asked Questions"
+        url: /docs/faqs
