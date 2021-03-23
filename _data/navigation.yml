@@ -7,7 +7,7 @@ main:
   - title: "Our Data"
     url: /data/
   - title: "Our Methods"
-    url: /methods/
+    url: /methods
   - title: "Documentation"
     url: /docs/access
 
@@ -38,7 +38,7 @@ methods:
   - title: Our Methods
     children:
       - title: "Introduction to our methods"
-        url: /methods/
+        url: /methods
       - title: "About text reuse"
         url: /methods/passim
       - title: "Citation detection"
