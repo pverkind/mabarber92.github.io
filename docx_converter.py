@@ -4,6 +4,7 @@ Created on Tue Feb 23 14:42:07 2021
 
 @author: mathe
 """
+#!/usr/bin/python 
 
 import pypandoc
 import re
