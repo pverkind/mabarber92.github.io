@@ -13,6 +13,11 @@ pi_message:
     title: "A message from the PI"
     excerpt: "Sample message............................................................................................................................................................."
 
+all_blogs:
+  - image_path:
+    url: "/blogs"
+    btn_label: "Read more blogs"
+    btn_class: "btn--primary"
 
 
 corpus_search:
@@ -44,10 +49,10 @@ corpus_search:
       {% assign latest_post = site.posts[0]%}
       <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
       <div class = "archive__item-excerpt">
-      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} </p>
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} <b><a href="{{ latest_post.url }}">read more</a></b> </p>
       <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
       </div>
-      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read more</a></p>
+      
       </div>
       </div>
       
@@ -59,10 +64,10 @@ corpus_search:
       {% assign latest_post = site.posts[1]%}
       <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
       <div class = "archive__item-excerpt">
-      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} </p>
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} <b><a href="{{ latest_post.url }}">read more</a></b> </p>
       <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
       </div>
-      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read more</a></p>
+      
       </div>
       </div>
       
@@ -71,17 +76,19 @@ corpus_search:
 <div class="feature__item">
      <div class = "archive__item">
       <div class = "archive__item-body">
-      {% assign latest_post = site.posts[2]%}
-      <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
+      
+      <h2 class = "archive__item-title">Read more blogs </h2>
       <div class = "archive__item-excerpt">
-      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} </p>
-      <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
+      <p> Read more blogs about KITAB's corpus, methods and data </p>
+
       </div>
-      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read more</a></p>
+      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read other blogs</a></p>
       </div>
       </div>
       
       </div>
+
+
  
 <!Code block for the twitter embed - do not change!>
 
