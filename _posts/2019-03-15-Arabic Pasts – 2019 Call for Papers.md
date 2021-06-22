@@ -8,7 +8,7 @@ layout:		single
 categories:
   - 
   - 
-tags:
+tags: events
   - 
 ---
 

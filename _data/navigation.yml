@@ -7,7 +7,7 @@ main:
   - title: "Methods"
     url: /methods
   - title: "Research"
-    url: /docs/access
+    url: /blogs
   - title: "Documentation"
     url: /docs/access
 
@@ -83,21 +83,31 @@ methods:
       - title: "Lost/Dispersed texts"
         url: /methods/dispersed-texts
 
-docs:
-  - title: Documentation
+methods:
+  - title: How we study
     children:
-      - title: "Accessing and downloading the corpus and its organisation"
-        url: /docs/access
-      - title: "mARkdown"
-        url: /docs/markdown
-      - title: "Using our applications"
-        url: /docs/apps
-      - title: "Applying digital methods to the corpus"
-        url: /docs/methods
-      - title: "Flagging issues with the corpus, apps or data"
-        url: /docs/issues-flagging
-      - title: "Frequently Asked Questions"
-        url: /docs/faqs
+      - title: "Introduction to our methods"
+        url: /methods
+      - title: "Challenges"
+        url: /methods/challenges
+      - title: "Text reuse"
+        url: /methods/text-reuse
+      - title: "Network Analysis"
+        url: /methods/networks
+      - title: "Subgenre classification"
+        url: /methods/sub-genre
+
+research:
+  - title: research
+    children:
+      - title: "Blogs"
+        url: /blogs
+      - title: "Articles"
+        url: /research/articles
+      - title: "Books"
+        url: /research/books
+      - title: "Events"
+        url: /research/events
 
 docs:
   - title: Getting Started
