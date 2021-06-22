@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Knowledge Information and the Arabic Book"
+title                    : "KITAB"
 title_separator          : "-"
 subtitle                 : ""
 name                     : "KITAB"
@@ -26,8 +26,8 @@ baseurl                  :
 repository               : "mabarber92/kitab-minimal-updated"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo-small-2.png"
-masthead_title           : ""
-# breadcrumbs            : false # true, false (default)
+masthead_title           : " "
+breadcrumbs            : true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "KITAB"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
@@ -122,9 +122,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "AKU-ISMC"
-      icon: "/assets/images/logo-small-2.png"
-      url: "https://www.aku.edu/ismc/Pages/home.aspx"
+    - # label: "AKU-ISMC"
+      # icon: "/assets/images/logo-small-2.png"
+      # url: "https://www.aku.edu/ismc/Pages/home.aspx"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -184,7 +184,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "\n"
 incremental: false
 
 

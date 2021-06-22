@@ -2,65 +2,146 @@
 layout: splash
 header:
   overlay_image: /images/covers/kitab3a.jpg
-title: ""
+title: "Knowledge Information and the Arabic Book"
+tagline: "The Website for the KITAB project"
 
-feature_row:
-  - image_path: /images/kitab/photo05.jpg
-      
-    
-    url: "/meet-the-team/our-team"
-    btn_label: "Meet the team"
+pi_message:
+  - image_path: /images/kitab/all_team2.jpg
+    url: "/about/"
+    btn_label: "Read more"
     btn_class: "btn--primary"
-  - image_path: /images/kitab/mesa.jpg
-    
-      
-    
-    url: "/data"
-    btn_label: "Explore our data"
-    btn_class: "btn--primary"
-  - image_path: /images/kitab/textalignment.png 
-    
-    
-    url: "/docs/faqs"
-    btn_label: "FAQs"
-    btn_class: "btn--primary"
-feature_row2:
+    title: "A message from the PI"
+    excerpt: "Sample message............................................................................................................................................................."
+
+
+
+corpus_search:
   - image_path: /images/covers/search_app.png
     alt: "placeholder image 2"
     title: "Search the OpenITI corpus"
-    excerpt: 'Click the button to start searching our corpus and downloading texts'
+    excerpt: 'Click the button to start searching for books in our corpus and downloading texts'
     url: "https://kitab-corpus-metadata.azurewebsites.net/"
     btn_label: "Search for books"
     btn_class: "btn--primary"
-feature_row3:
-  - image_path: /images/covers/Zenodo.png
-    alt: "placeholder image 2"
-    title: "Our latest release"
-    excerpt: "OpenITI had its latest corpus release on 5th February 2021. Follow the link to download (please don't forget to cite!)"
-    url: "https://zenodo.org/record/4513723#.YFmyuK-eRPY"
-    btn_label: "Download the Corpus"
-    btn_class: "btn--primary"
 
-feature_row4:
-  - image_path: 
-    alt: ""
-    title: ""
-    excerpt: ""
-    url: ""
+
+
 
 
 ---
+{% include feature_row id="pi_message" type="right" %}
+
+<!Code block for the latest blogs - do not change!>
+
+
+<h1> Our latest blogs </h1>  
+<div class="feature__wrapper">
+    
+  
+    <div class="feature__item">
+     <div class = "archive__item">
+      <div class = "archive__item-body">
+      {% assign latest_post = site.posts[0]%}
+      <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
+      <div class = "archive__item-excerpt">
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} </p>
+      <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
+      </div>
+      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read more</a></p>
+      </div>
+      </div>
+      
+      </div>
+
+<div class="feature__item">
+     <div class = "archive__item">
+      <div class = "archive__item-body">
+      {% assign latest_post = site.posts[1]%}
+      <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
+      <div class = "archive__item-excerpt">
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} </p>
+      <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
+      </div>
+      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read more</a></p>
+      </div>
+      </div>
+      
+      </div>
+
+<div class="feature__item">
+     <div class = "archive__item">
+      <div class = "archive__item-body">
+      {% assign latest_post = site.posts[2]%}
+      <h2 class = "archive__item-title">{{ latest_post.title }} </h2>
+      <div class = "archive__item-excerpt">
+      <p> {{latest_post.excerpt | markdownify | strip_html | truncate: 160}} </p>
+      <p> {{ latest_post.date | date: '%B %d, %Y' }} </p>
+      </div>
+      <p> <a href="{{ latest_post.url }}" class="btn btn--primary">Read more</a></p>
+      </div>
+      </div>
+      
+      </div>
+ 
+<!Code block for the twitter embed - do not change!>
+
+</div>
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--left">
+      <div class="archive__item">
+        
+          <div class="archive__item-teaser">
+            <a class="twitter-timeline" data-width="600" data-height="500" data-theme="light" href="https://twitter.com/sarahsavant1?ref_src=twsrc%5Etfw">Tweets by sarahsavant1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+          </div>
+        
+
+        <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Follow us</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Keep up to date with the KITABis. Follow us on twitter or subscribe to our mailing list.</p>
+
+            </div>
+          
+
+          
+            <p><a href="" class="btn btn--primary">Subscribe!</a></p>
+          
+        </div>
+
+           <div class="archive__item-body">
+          
+            <h2 class="archive__item-title">Get involved</h2>
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Would you like to contribute to our Corpus? Do you have data you would like to share? Are you working in Classical Arabic NLP? We would love to hear from you!</p>
+
+            </div>
+          
+
+          
+            <p><a href="/about/get-involved" class="btn btn--primary">Get in touch!</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
 
 
 
 
 
- {{ site.data.ui-text[site.locale].recent_posts | default: "Recent posts from the team" }}
- {% if paginator %} {% assign posts = paginator.posts %} {% else %} {% assign posts = site.posts %} {% endif %} {% assign entries_layout = page.entries_layout | default: 'list' %}
- {% for post in posts %} {% include archive-single.html type=entries_layout %} {% endfor %}
- {% include paginator.html %}
 
 
-
- {% include feature_row id="feature_row2" type="right" %}
- {% include feature_row id="feature_row3" type="left" %}
+ {% include feature_row id="corpus_search" type="right" %}
+ 

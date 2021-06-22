@@ -6,10 +6,10 @@ header:
   caption: "**Photo credit**: From Book three of 'Nihāyat al-su’l' which gives instructions on using lances. Dated 773/1371 (Add. MS. 18866, f. 113r)"
 
 layout:		single
-
+title:		"The KITABIs"
 sidebar:
   nav: "team"
-permalink: /meet-the-team/our-team
+permalink: /about/kitabis
 ---
 
 {% include toc icon="gears" title="Table of Contents" %}

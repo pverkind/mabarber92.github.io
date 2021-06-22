@@ -10,7 +10,7 @@ layout:		single
 author_profile: true
 sidebar:
   nav: "team"
-permalink: /meet-the-team/
+permalink: /about/
 ---
 
 {% include toc icon="gears" title="Table of Contents" %}

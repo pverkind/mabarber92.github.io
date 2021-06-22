@@ -1,28 +1,33 @@
 # main links
 main:
-  - title: "Meet the team"
-    url: /meet-the-team/
-  - title: "Our Corpus"
+  - title: "About"
+    url: /about/
+  - title: "Corpus and Data"
     url: /corpus/
-  - title: "Our Data"
-    url: /data/
-  - title: "Our Methods"
+  - title: "Methods"
     url: /methods
+  - title: "Research"
+    url: /docs/access
   - title: "Documentation"
     url: /docs/access
 
 
 team:
-  - title: Meet the team
+  - title: About
     children:
-      - title: "About the project"
-        url: /meet-the-team/
-      - title: "Our team"
-        url: /meet-the-team/our-team
-      - title: "Our collaborators"
-        url: /meet-the-team/our-collaborators
+      - title: "Message from the PI"
+        url: /about/
+      - title: "The KITABIs"
+        url: /about/kitabis
+      - title: "Collaborations"
+        url: /about/collaborations
+      - title: "Our Projects"
+        url: /about/our-projects
+      - title: "Funders"
+        url: /about/funders
       - title: "Get involved"
-        url: /meet-the-team/get-involved
+        url: /about/get-involved
+
 
 corpus:
   - title: Our Corpus
