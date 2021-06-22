@@ -59,16 +59,29 @@ corpus:
 
 
 methods:
-  - title: Our Methods
+  - title: How we study
     children:
       - title: "Introduction to our methods"
         url: /methods
-      - title: "About text reuse"
-        url: /methods/passim
-      - title: "Citation detection"
+      - title: "Challenges"
+        url: /methods/challenges
+      - title: "Text reuse"
+        url: /methods/text-reuse
+      - title: "Network Analysis"
+        url: /methods/networks
+      - title: "Subgenre classification"
+        url: /methods/sub-genre
+
+  - title: What we study
+    children:
+      - title: "Book history"
+        url: /methods/book-history
+      - title: "Citation Practices"
         url: /methods/citation
-      - title: "Machine-learning approaches"
-        url: /methods/machine-learning
+      - title: "Scholarly networks"
+        url: /methods/scholar-network
+      - title: "Lost/Dispersed texts"
+        url: /methods/dispersed-texts
 
 docs:
   - title: Documentation
