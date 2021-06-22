@@ -2,7 +2,7 @@
 layout: splash
 header:
   overlay_image: /images/covers/kitab3a.jpg
-title: "Explore our data"
+title: "Our Applications"
 
 feature_row2:
   - image_path: /images/kitab/textalignment.png
@@ -29,7 +29,7 @@ feature_row4:
     btn_label: "Use this app"
     btn_class: "btn--primary"
 
-permalink: /data/
+permalink: /data/apps
 ---
 
 Here you can explore KITAB's data through a number of different applications 

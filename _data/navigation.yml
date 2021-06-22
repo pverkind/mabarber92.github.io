@@ -30,14 +30,33 @@ team:
 
 
 corpus:
-  - title: Our Corpus
+  - title: Corpus and Data
     children:
-      - title: "About the Corpus"
-        url: /corpus/
-      - title: "What is mARkdown?"
+      - title: "Message from the team"
+        url: /corpus
+      - title: "About the corpus"
+        url: /corpus/about
+      - title: "Using the corpus"
+        url: /corpus/use
+      - title: "mARkdown"
         url: /corpus/markdown
-      - title: "Suggest additions to the Corpus"
-        url: /corpus/add-to-corpus
+      - title: "OCR"
+        url: /corpus/ocr
+      - title: "Read more"
+        url: /corpus/blogs
+
+  - title: Datasets
+    children:
+      - title: "About our data"
+        url: /data
+      - title: "About our Vizualisations"
+        url: /data/viz
+      - title: "Use Our Applications"
+        url: /data/apps
+      - title: "Read more"
+        url: /data/blogs
+  
+
 
 methods:
   - title: Our Methods
@@ -66,3 +85,29 @@ docs:
         url: /docs/issues-flagging
       - title: "Frequently Asked Questions"
         url: /docs/faqs
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
