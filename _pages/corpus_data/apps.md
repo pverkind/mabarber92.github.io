@@ -2,6 +2,9 @@
 layout: splash
 header:
   overlay_image: /images/covers/kitab3a.jpg
+  actions:
+    - label: "Learn more about the Corpus and Data"
+      url: /corpus
 title: "Our Applications"
 
 feature_row2:

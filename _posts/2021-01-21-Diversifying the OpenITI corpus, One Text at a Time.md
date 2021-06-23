@@ -10,6 +10,9 @@ categories:
   - 
 tags:
   - 
+sidebar:
+  - title: "Glossary"
+  - text: "**Word 1:** Definition.<br>**Word 2:** Definition.<br>**Word 3:** Definition" 
 ---
 
 The vast majority of texts in the OpenITI corpus were sourced from three major collections of digital texts originally prepared by organisations based in the Middle East (see Peter Verkinderen’s excellent blog on the largest of them, [Shamela](http://kitab-project.org/2020/12/03/al-maktaba-al-shamila-a-short-history/)). These collections have proven invaluable to researchers, not in the least because they have facilitated digital forms of analysis, but they all made choices about which textual materials should belong on their platforms and which should not. Shamela for example did not originally include any poetry and focused largely on Sunni traditionalism. Another significant omission in each of these collections is the rich corpus of Arabic texts written by and for non-Muslims.  

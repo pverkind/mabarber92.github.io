@@ -9,7 +9,7 @@ main:
   - title: "Research"
     url: /blogs
   - title: "Documentation"
-    url: /docs/access
+    url: https://openiti.github.io/documentation/
 
 
 team:
