@@ -85,19 +85,6 @@ methods:
       - title: "Lost/Dispersed texts"
         url: /methods/dispersed-texts
 
-methods:
-  - title: How we study
-    children:
-      - title: "Introduction to our methods"
-        url: /methods
-      - title: "Challenges"
-        url: /methods/challenges
-      - title: "Text reuse"
-        url: /methods/text-reuse
-      - title: "Network Analysis"
-        url: /methods/networks
-      - title: "Subgenre classification"
-        url: /methods/sub-genre
 
 research:
   - title: research
