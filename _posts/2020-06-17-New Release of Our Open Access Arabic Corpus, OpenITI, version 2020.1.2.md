@@ -8,7 +8,7 @@ layout:		single
 categories:
   - 
   - 
-tags: corpus
+tags: corpus, release
   - 
 ---
 
