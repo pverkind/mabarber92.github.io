@@ -7,8 +7,11 @@ title: Scholarly Networks
 layout: tag
 permalink: /methods/scholar-network
 taxonomy: scholar-network
+entries_layout: grid
 sidebar:
   nav: "methods"
 ---
 
-## Here we will provide a description on our work on scholarly networks. Then blogs tagged with the subject will follow.
+Our studies of [subgenres]({{ '/methods/sub-genre' | relative_url}}) and [network analysis]({{ '/methods/networks' | relative_url }}), alongside other dedicated research are helping us understand scholarly networks. 
+
+To see examples of how we are studying scholarly networks, check out some relevant blogs:
