@@ -51,9 +51,15 @@ The result of the above process is one csv (comma separated value) file for each
 
 This individual alignment files can then be viewed used KITAB’s alignment reader (see figure 1), which helps us to visualise how text is shared between a pair of texts.
 
-![A comparison of the Nujum and Kamil](/images/methods/pair-wise-Nujum-Kamil.png)\
+{% capture figure1 %}
+[![A comparison of the Nujum and Kamil](/images/methods/pair-wise-Nujum-Kamil.png)](/images/methods/pair-wise-Nujum-Kamil.png)
+
 *Figure 1. A vizualisation of comparing Ibn Taghribirdi's (d. 874/1470) Nujum al-Zahira on the top with Ibn al-Athir's (d. 630/1233) al-Kamil fi-l-Taʾrikh on the bottom. Yellow lines show reused text and the red bars show the length of each instance of reuse. One can clearly see how Ibn Taghribirdi has condensed the Ibn al-Athir's material when writing his chronicle, as both chronicles conclude in their author's lifetimes. For more on the vizualisation, see [here]({{ "/data/viz" | relative_url }}).*
-{: .notice--primary}
+{% endcapture %}
+
+<div class="notice--primary">
+{{ figure1 | markdownify }}
+</div>
 
 From these alignments we also compute statistics for each book (again both for normal and aggregated data) that show, for example, what proportion of each work is shared with another work and how many words are shared between two texts. This statistical data is fed into a [PowerBI application]({{ "/data/viz" | relative_url }}) and it is also used by team members to investigate research questions.
 
