@@ -1,7 +1,8 @@
 ---
 layout: splash
 header:
-  overlay_image: /images/covers/kitab3a.jpg
+  overlay_image: /images/covers/banner_data.png
+  overlay_filter: rgba(40, 99, 165, 0.45)
   actions:
     - label: "Learn more about the Corpus and Data"
       url: /corpus
