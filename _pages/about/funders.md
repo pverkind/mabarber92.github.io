@@ -18,7 +18,7 @@ permalink: /about/funders
 
 The KITAB project is funded by the ERC to undertake research into book history and memory. It funds our corpus expansion, work on text reuse and the development of other cutting-edge digital [methods]({{ "/methods/" | relative_url }})
 
-**Grant no:** UPDATE
+**Grant no:** 772989
 
 ### Mellon foundation
 [![Mellon](/images/funders/The-Andrew-W.-Mellon-Foundation.jpeg)](https://mellon.org/){: .align-left}
